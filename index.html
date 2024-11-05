@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>ВинКоин || Технолошка иновација за унапређење државних иницијатива</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/VK1.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        
+        .roadmap-starter {
+            background: #00A440 !important;
+        }
+        .custom-card{
+            background: #091827;
+            height: 100%;
+            box-sizing: border-box;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .card-9 {
+            background: #063648;
+        }
+        
+        .navbar-toggler {
+            border-color: #fff !important;
+        }
+
+        .navbar-toggler-icon {
+            background-color: #fff !important; 
+        }
+
+
+        
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg sticky-top p-0 px-4 px-lg-5" style="background-color: #091827;">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <h2 class="m-0 text-white"><img class="img-fluid me-2" src="img/VK1.png" alt=""
+                    style="width: 45px;">ВинКоин</h2>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-4 py-lg-0">
+                <a href="#header" class="nav-item nav-link active">Почетна</a>
+                <a href="#about" class="nav-item nav-link">О ВинКоину</a>
+                <a href="#efekti" class="nav-item nav-link">Eфекти</a>
+                <a href="#roadmap" class="nav-item nav-link">Развојни план</a>
+                <a href="#simulator" class="nav-item nav-link">Симулатор</a>
+                <a href="#pitanja" class="nav-item nav-link">Питања</a>
+                <!--<a href="#tim" class="nav-item nav-link">Тим</a>
+                <a href="#donacije" class="nav-item nav-link">Донације</a>-->
+            </div>
+            <!--<div class="h-100 d-lg-inline-flex align-items-center d-none">
+                <a class="btn btn-danger rounded-circle me-1" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-danger rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-danger rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
+                <a class="btn btn-danger rounded-circle me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+            </div>-->
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid hero-header bg-light py-5 mb-5" id="header">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 mb-3 animated slideInDown">У огледалу прошлости види се сјај будућности!</h1>
+                    <p class="animated slideInDown text-dark">Лета господњег 7533. (2024. по употребном календару), оснивачи ВинКоин-а покрећу технички развој будућег националног коина ВИНКОИН у симулатор фази. Придружите се данас и изградимо стабилнију и сигурнију финансијску будућност!</p>
+                    <a href="#about" class="btn py-3 px-4 mt-4 animated slideInDown text-white fw-bold" style="background-color: #091827;">Сазнајте више!</a>
+                </div>
+                <div class="col-lg-6 animated fadeIn">
+                    <img class="img-fluid animated pulse infinite" style="animation-duration: 3s; border-radius: 5%;" src="img/WEBVinca.jpg"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+    <div class="container mt-5">
+        <blockquote class="blockquote text-center">
+            <p class="mb-4">„Без алата нема ни заната.”</p>
+            <footer class="blockquote-footer">Србска народна пословица!</footer>
+        </blockquote>
+    </div>
+
+    <!-- About Start -->
+
+    <div class="container-xxl py-5 mt-5" id="about">
+        <div class="container mt-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="img-fluid animated pulse infinite" style="animation-duration: 3s;" width="420" src="img/vincanac.jpg" alt="">
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <h1 class="display-6"><img class="img-fluid me-2" src="img/VK1.png" alt=""
+                            style="width: 60px;">О ВинКоину</h1>
+                        <p class="fs-5 mb-4 fw-bold" style="color: #091827;" >Из захвалности прецима, стварамо пут потомцима.</p>
+                        <p class="text-dark">ВинКоин, назван по нашој „Винчанској култури“, уз своје „Лепенце“, назване по археолошком налазишту на локалитету Лепенски Вир, који доказују наше порекло и континуитет обитавања, као и постанка на овим просторима. 
+                        </p>
+                        <p class="text-dark">ВинКоин има за циљ да обезбеди финансијску потпору привреди и становништву Републике Србије. Назив коина још једном подсећа ко смо и ко су нам преци.
+                        </p>
+                        <p class="mb-4 fs-2 fw-bold" style="color: #091827;" >Зашто нам је потребан ВинКоин?</p>
+                        <div class="d-flex align-items-center mb-2 text-dark">
+                            <i class="fa fa-check bg-light text-warning btn-sm-square rounded-circle me-3 fw-bold"></i>
+                            <span>Србија је тоталитарно сиромашно друштво са великим социјалним раслојавањима, уништена је Република и обесмишљена Демократија.</span>
+                        </div>
+                        <div class="d-flex align-items-center mb-2 text-dark">
+                            <i class="fa fa-check bg-light text-warning btn-sm-square rounded-circle me-3 fw-bold"></i>
+                            <span>Стопа привредног раста 2012 -2024.г  је мала – 2,36%, што значи да ће Србија дугорочно да буде сиромашна држава, која биолошки нестаје.</span>
+                        </div>
+                        <div class="d-flex align-items-center mb-4 text-dark">
+                            <i class="fa fa-check bg-light text-warning btn-sm-square rounded-circle me-3 fw-bold"></i>
+                            <span>Спас Србије је могућ једино кроз убрзани привредни развој са двоцифреним стопама  раста, које ће значајно да повећају животни стандард грађана.</span>
+                        </div>
+                        <div class="d-flex align-items-center mb-4 text-dark">
+                            <i class="fa fa-check bg-light text-warning btn-sm-square rounded-circle me-3 fw-bold"></i>
+                            <span>Народна банка Србије /НБС/ је мењачница која води погрешну кредитно-монетарну политику без привредног развоја.</span>
+                            </span>
+                        </div>
+                        <div class="d-flex align-items-center mb-4 text-dark">
+                            <i class="fa fa-check bg-light text-warning btn-sm-square rounded-circle me-3 fw-bold"></i>
+                            <span> Убрзани привредни развој је једино могућ ако НБС промени кредитно-монетарну политику и ако се уведе паметни дигитални новац - ВИНКОИН.</span>
+                            </span>
+                        </div>
+                        
+                     
+                    
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="custom-card card-1">
+                    <h2 class="text-center text-white">МИСИЈА</h2>
+                    <ul class="text-white">
+                        <li>ВинКоин доноси грађанима слободу избора</li>
+                        <li>ВинКоин обезбеђује услове компанијама за развој</li>
+                        <li>ВинКоин ствара ефикасан финансијски систем</li>
+                        <li>ВинКоин омогућава држави БДП развијених земаља</li>
+                        <li>ВинКоин ствара богато и праведно друштво</li>
+                    </ul>
+                </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="custom-card card-2">
+                    <h2 class="text-center text-white">СТРАТЕГИЈА</h2>
+                    <ul class="text-white">
+                        <li>Циљ БДП – 500 милијарди евра, подизање БДП са садашњих реално – 46 милијарди евра</li>
+                        <li>Укупна запосленост на – 4,5 милиона радника, уз повратак наших људи из расејања, повећање са  садашњих 2,3 милиона запослених</li>
+                        <li>ВинКоин омогућава да се искоришћеност капацитета са 15% подигне на 95%</li>
+                        <li>НБС преузима пројекат ВинКоин и обезбеђује његово функционисање на бази поседовања, злата, девизних резерви, природних ресурса, обрадивих површина и индустријских капацитета</li>
+                        <li>ВинКоин се котира на БЕОГРАДСКОЈ БЕРЗИ</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <div class="custom-card card-3">
+                    <h2 class="text-center text-white">О ВИНКОИНУ</h2>
+                    <ul class="text-white">
+                        <li>Укупан износ ВИНКОИНА износи ----,</li>
+                        <li>ЈЕДАН ВИНКОИН има МИЛИОН ЛЕПЕНАЦА,</li>
+                        <li>Једна транскација кошта ЈЕДАН ЛЕПЕНАЦ,</li>
+                        <li>Сваки пунолетни држављанин из земље и расејања добија БЕСПЛАТНО ЈЕДАН ВИНКОИН,</li>
+                        <li>ВИНКОИНИМА се обавља платни промет у Србији.</li>
+                    </ul>
+                </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="custom-card card-4">
+                    <h2 class="text-center text-white">ВАЖНА НАПОМЕНА</h2>
+                    <ul class="text-white">
+                        <li>Уставом се гарантује сталан опстанак ГОТОВИНЕ у плаћањима,</li>
+                        <li>Готовина обезбеђује приватност и слободу грађана,</li>
+                        <li>ВИНКОИН не негира постојање готовине и није у сукобу интереса са постојањем готовине,</li>
+                        <li>ВИНКОИН није CBDC и НБС не може да контролише и утиче на курс и платни промет ВИНКОИНА,</li>
+                        <li>НБС обезбеђује услове за слободно тржишно функционисање ВИНКОИНА.</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <div class="custom-card card-5">
+                    <h2 class="text-center text-white">ЗАДАТАК СТРУЧНОГ ТИМА</h2>
+                    <ul class="text-white">
+                        <li>Стручни тим израђује читав пројекат ВИНКОН,</li>
+                        <li>Стручни тим тестира пројекат ВИНКОН,</li>
+                        <li>Стручни тим ради промоцију пројекта ВИНКОН,</li>
+                        <li>Стручни тим задржава за себе 20% власништва ВИНКОНА,</li>
+                        <li>Стручни тим предаје бесплатно ВЛАДИ НАРОДНОГ СПАСА 80% власништва пројекта ВИНКОН на реализацију,</li>
+                        <li>Стручни тим пројекат ПАМЕТНОГ НОВЦА продаје другим државама на реализацију.</li>
+                    </ul>
+                </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="custom-card card-6">
+                    <h2 class="text-center text-white">ОСНИВАЧИ ВИНКОИНА</h2>
+                    <ul class="text-white">
+                        <li>Софтверски тим: Небојша Сладоје, Жељко Кнежевић, Никола Јелић и Дејан Кнежевић,</li>
+                        <li>Маркетиншки и ауторски тим: Милан Бекић и Бранко Драгаш,</li>
+                        <li>Стручни тим потписује УГОВОР О ПОЛОВНО-ТЕХНИЧКОЈ САРАДЊИ, који дефинише све пословне задатке и финансијске односе између оснивача ВИНКОНА.</li>
+                    
+                    </ul>
+                </div>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <div class="custom-card card-7">
+                    <h2 class="text-center text-white">ОПЕРАТИВНА РЕАЛИЗАЦИЈА</h2>
+                    <ul class="text-white">
+                        <li>Софтверски тим ВИНКОИНА прави апликацију и подиже функционалну примену ВИНКОИНА у пракси,</li>
+                        <li>Маркетиншки тим ВИНКОИНА подиже познатост ВИНКОИНА у друштву и врши његову промоцију у земљи и расејању,</li>
+                        <li>Остале оперативне задатке договарају се оснивачи на седмичним састанцима,</li>
+                        <li>Одлуке се доносе КОНСЕНЗУСОМ оснивача, нема прегласавања.</li>
+                    </ul>
+                </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="custom-card card-8">
+                    <h2 class="text-center text-white">ИНВЕСТИРАЊЕ</h2>
+                    <ul class="text-white">
+                        <li>Грађани и домаће компаније могу да инвестирају у ВИНКОИН,</li>
+                        <li>Инвестирање је могуће тек када НБС преузме ВИНКОИН.</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <div class="custom-card card-9">
+                    <h2 class="text-center text-white">ДОНИРАЊЕ</h2>
+                    <ul class="text-white">
+                        <li>Грађани и домаће компаније могу да помогну пројекат ВИНКОИН својим донацијама,</li>
+                        <li>Износ донације је слободан избор донатора,</li>
+                        <li>Уплате динарске и девизне се врше на компанију коју оснивачи ВИНКОИНА одреде као носиоца донације.</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- About End -->
+
+
+
+
+    <!-- Features Start -->
+
+
+    <div class="container-xxl py-5 mt-5" id="efekti">
+        <div class="container mt-5">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
+                <h1 class="display-6"><img class="img-fluid me-2" src="img/VK1.png" alt=""
+                    style="width: 60px;">Позитивни ефекти увођења ВинКоина у монетарне токове Републике Србије</h1>
+
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-start">
+                        <img class="img-fluid flex-shrink-0" src="img/icon-7.png" alt="">
+                        <div class="ps-4">
+                            <h5 class="mb-3">ВИНКОИН</h5>
+                            <span class="text-dark" >враћа власт у руке сувереног грађанина / чл.2.Устава/, обнавља Републику и успоставља ДИРЕКТНУ ДЕМОКРАТИЈУ.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="d-flex align-items-start">
+                        <img class="img-fluid flex-shrink-0" src="img/icon-6.png" alt="">
+                        <div class="ps-4">
+                            <h5 class="mb-3">ВИНКОИН</h5>
+                            <span class="text-dark" >гради нови политички и економски систем.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-start">
+                        <img class="img-fluid flex-shrink-0" src="img/icon-5.png" alt="">
+                        <div class="ps-4">
+                            <h5 class="mb-3">ВИНКОИН</h5>
+                            <span class="text-dark" >успоставља МЕРИТОКРАТИЈУ или владавину стручњака.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-start">
+                        <img class="img-fluid flex-shrink-0" src="img/icon-4.png" alt="">
+                        <div class="ps-4">
+                            <h5 class="mb-3">ВИНКОИН</h5>
+                            <span class="text-dark" >омогућава двоцифрене стопе привредног раста.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="d-flex align-items-start">
+                        <img class="img-fluid flex-shrink-0" src="img/icon-3.png" alt="">
+                        <div class="ps-4">
+                            <h5 class="mb-3">ВИНКОИН</h5>
+                            <span class="text-dark" >искорењује сиромаштво, подиже животни стандард грађана и ствара социјално уравнотежено друштво.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-start">
+                        <img class="img-fluid flex-shrink-0" src="img/icon-8.png" alt="">
+                        <div class="ps-4">
+                            <h5 class="mb-3">ВИНКОИН</h5>
+                            <span class="text-dark" >ублажава штетно деловање такозваних пословних банака код привредника и становништва.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Features End -->
+
+ <!-- Roadmap Start -->
+
+ <div class="container-xxl py-5 mt-5" id="roadmap">
+    <div class="container mt-5">
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 700px;">
+            <h1 class="display-6">Развојни план ВинКоина</h1>
+            <p class="fs-4 mb-5 fw-bold" style="color: #091827;">Фазе развоја по битнијим тачкама</p>
+        </div>
+        <div class="owl-carousel roadmap-carousel wow fadeInUp" data-wow-delay="0.1s">
+            <div class="roadmap-item">
+                <div class="roadmap-point"><span class="roadmap-starter"></span></div>
+                <h5>Израда пројектне документације</h5>
+                <!--<span>Diam dolor ipsum sit amet erat ipsum lorem sit</span>-->
+            </div>
+            <div class="roadmap-item">
+                <div class="roadmap-point"><span></span></div>
+                <h5>Израда симулатора</h5>
+                <!--<span>Diam dolor ipsum sit amet erat ipsum lorem sit</span>-->
+            </div>
+            <div class="roadmap-item">
+                <div class="roadmap-point"><span></span></div>
+                <h5>Интерно тестирање симулатора</h5>
+                <!--<span>Diam dolor ipsum sit amet erat ipsum lorem sit</span>-->
+            </div>
+            <div class="roadmap-item">
+                <div class="roadmap-point"><span></span></div>
+                <h5>Јавно тестирање симулатора</h5>
+                <!--<span>Diam dolor ipsum sit amet erat ipsum lorem sit</span>-->
+            </div>
+            <div class="roadmap-item">
+                <div class="roadmap-point"><span></span></div>
+                <h5>Масовна симулација</h5>
+                <!--<span>Diam dolor ipsum sit amet erat ipsum lorem sit</span>-->
+            </div>
+            <div class="roadmap-item">
+                <div class="roadmap-point"><span></span></div>
+                <h5>Унапређивање система</h5>
+                <!--<span>Diam dolor ipsum sit amet erat ipsum lorem sit</span>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Roadmap End -->
+
+
+    <!-- Services Start -->
+
+        <div class="container-xxl bg-light py-5 my-5 mt-5" id="simulator">
+            <div class="container py-5 mt-5">
+                <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                    <h1 class="display-6"><img class="img-fluid me-2" src="img/VK1.png" alt=""
+                        style="width: 60px;">ВинКоин симулатор</h1>
+                    <p class="fs-4 mb-5 fw-bold" style="color: #091827;" >Детаљније о симулатору и развојним фазама ВинКоина</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-12">
+                        <p class="text-dark">
+                            Пројекат ВинКоин представља развој симулатора за виртуелни новчић који је осмишљен као средство подршке привреди и становништву. Иако ВинКоин није комерцијални пројекат, његов симулатор пружа увид у понашање и динамику валуте у разним економским сценаријима, што би могло бити корисно за доношење одлука и планирање привредних активности.
+                        </p>
+                    </div>
+                    <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item bg-white p-5">
+                            <h5 class="mb-3">Пројектовање симулатора</h5>
+                            <ul class="text-dark">
+                                <li>Израда детаљне пројектне документације са описом циља, структуре и функција симулатора.</li>
+                                <li>Прецизирање параметара симулације и алгоритама који ће управљати вредношћу и циркулацијом ВинКоина.</li>
+                            </ul>
+                            <!--<a href="">Pročitajte više <i class="fa fa-arrow-right ms-2"></i></a>-->
+                        </div>
+                    </div>
+                    <div class="col-12 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item bg-white p-5">
+                            <h5 class="mb-3">Развој симулатора</h5>
+                            <ul class="text-dark">
+                                <li>
+                                    Програмска структура: Изградња основног програмског кода симулатора који укључује генерисање, трансакције и потрошњу ВинКоина.
+                                </li>
+                                <li>Моделирање сценарија: Имплементација различитих економских сценарија, укључујући промене у популацији корисника и активностима тржишта, за тестирање утицаја на вредност и доступност ВинКоина.</li>
+                                <li>Алгоритам вредновања: Развој алгоритма који прилагођава цену према понуди и потражњи, што симулира реалне економске услове.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item bg-white p-5">
+                            <h5 class="mb-3">Интерно тестирање</h5>
+                            <ul class="text-dark">
+                                <li>Алфа тестирање: Интерно тестирање кључних функција симулатора у контролисаним условима за проверу стабилности и тачности.</li>
+                                <li>Бета тестирање: Тестирање симулатора у симулираним условима са већим бројем виртуелних корисника за реалистичније сценарије.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item bg-white p-5">
+                            <h5 class="mb-3">Јавно тестирање</h5>
+                            <ul class="text-dark">
+                                <li>Отворено тестирање: Омогућавање приступа симулатору одабраним корисницима ради јавног тестирања функција и добијања повратних информација.</li>
+                                <li>Прикупљање података: Анализа корисничких података из стварних интеракција како би се побољшала прецизност и стабилност токеномике и симулатора.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item bg-white p-5">
+                            <h5 class="mb-3">Масовна симулација</h5>
+                            <p class="text-dark">
+                                Фаза масовног тестирања обухвата позив грађанима да се активно укључе у симулацију. У овој фази, свим заинтересованим корисницима биће омогућено да креирају налоге и учествују у симулацији коришћења ВинКоина. Ово је прилика да се грађани упознају са суштином и потенцијалима ВинКоина, као и са његовим утицајем на економске токове
+                            </p>
+                            Циљ ове фазе је двострук:
+                            <ul class="text-dark">
+                                <li>Информисање грађана – Учесници ће моћи да се упознају са функцијама ВинКоина, начином функционисања, као и предностима које пружа симулатор за симулацију економских токова.</li>
+                                <li>Прикупљање повратних информација – Кроз активну интеракцију и коришћење система, развојни тим ће добити вредне повратне информације од корисника, које ће служити за унапређење система, идентификовање потенцијалних проблема и оптимизацију функционалности симулатора.</li>
+                            </ul>
+                            <p class="text-dark">
+                                Ова фаза је кључна за развој симулатора, јер омогућава реално тестирање у условима који најбоље одражавају стварну употребу и потребе будућих корисника.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item bg-white p-5">
+                            <h5 class="mb-3">Унапређивање система</h5>
+                            <p class="text-dark">
+                                Након завршене фазе масовног тестирања и прикупљања свих повратних информација, приступа се унапређивању система. У овој завршној фази отклањају се уочени технички недостаци, оптимизују алгоритми и додају нове функционалности у складу са потребама корисника. Циљ је обезбедити стабилан, прецизан и ефикасан симулатор који у потпуности испуњава своју сврху и задовољава потребе корисника.  
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- Services End -->
+
+
+   
+
+    
+
+
+    <!-- FAQs Start -->
+
+    
+    <section class="py-5 mt-5" id="pitanja">
+        <div class="container mt-5">
+            <div class="row justify-content-center text-center mb-3">
+                <div class="col-lg-8 col-xl-7">
+                    <h2 class="display-5 fw-bold">Често постављана питања</h2>
+                    <p class="lead text-dark">Ако нисте разумели шта је ВинКоин, прочитајте одабрана питања и одговоре који ће укратко дати прецизну слику о пројекту.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-5">
+                    <span class="text-dark">Питања о ВинКоину</span>
+                    <h2 class="pb-4 fw-bold">Имате питања?</h2>
+                    <p class="text-dark">Ако имате било каква питања о томе како све функционише, слободно нас контактирајте.</p><a class="btn btn-success btn-lg mt-3" href="#contact">Контактирајте нас</a>
+                </div>
+                <div class="col-md-7">
+                    <div class="accordion" id="Questions-accordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="Questions-headingOne"><button aria-controls="Questions-collapseOne" aria-expanded="false" class="accordion-button collapsed bg-light text-dark" data-bs-target="#Questions-collapseOne" data-bs-toggle="collapse" type="button">
+                                <div class="text-dark me-3">
+                                    <svg class="bi bi-question-circle-fill" fill="currentColor" height="24" viewbox="0 0 16 16" width="24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"></path>
+                                    </svg>
+                                </div>Да ли се ВинКоин може купити и да ли има вредност?</button></h2>
+                            <div aria-labelledby="Questions-headingOne" class="accordion-collapse collapse" data-bs-parent="#Questions-accordion" id="Questions-collapseOne">
+                                <div class="accordion-body">
+                                    <p class="text-dark">
+                                        <strong>
+                                            ВинКоин не можете купити и тренутно нема комерцијалну вредност, јер је пројекат у фази развоја као симулатор.
+                                        </strong>
+                                    </p>
+                                    У будућности, ВинКоин може добити вредност и бити размењив за друге валуте, али за сада његова највећа вредност лежи у самом концепту. Овај концепт би у будућности могао бити од велике користи за друштво и привреду, стварајући нове могућности за економски развој и технолошки напредак.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="Questions-headingTwo"><button aria-controls="Questions-collapseTwo" aria-expanded="false" class="accordion-button collapsed bg-light text-dark" data-bs-target="#Questions-collapseTwo" data-bs-toggle="collapse" type="button">
+                                <div class="text-dark me-3">
+                                    <svg class="bi bi-question-circle-fill" fill="currentColor" height="24" viewbox="0 0 16 16" width="24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"></path>
+                                    </svg>
+                                </div>Како ће изгледати ВинКоин симулатор?</button></h2>
+                            <div aria-labelledby="Questions-headingTwo" class="accordion-collapse collapse" data-bs-parent="#Questions-accordion" id="Questions-collapseTwo">
+                                <div class="accordion-body">
+                                    <p class="text-dark">
+                                        <strong>
+                                            ВинКоин симулатор ће се састојати од више међусобно повезаних система који су неопходни за процес блокчејна и осталих система везаних за технички део симулације, али и од едукативног дела који би требало да пружи јасну слику о пројекту свим грађанима, учесницима симулације.
+                                        </strong>
+                                    </p>
+                                    Симулација ће се одвијати на различитим нивоима и моделима, од онлајн продавнице до виртуелне мењачнице. Симулатор је осмишљен тако да обухвати системе у којима би било који званични ковани новац могао бити у употреби. Циљ је да се прикаже целокупан процес, од куповине и трансакција до размене, пружајући свеобухватан увид у блокчејн екосистем.
+                                    Ова комбинација техничке и едукативне компоненте омогућиће учесницима да боље разумеју како функционишу блокчејн процеси, као и да схвате значај и потенцијал ВинКоин пројекта у свакодневном животу и привреди.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="Questions-headingThree"><button aria-controls="Questions-collapseThree" aria-expanded="false" class="accordion-button collapsed bg-light text-dark" data-bs-target="#Questions-collapseThree" data-bs-toggle="collapse" type="button">
+                                <div class="text-dark me-3">
+                                    <svg class="bi bi-question-circle-fill" fill="currentColor" height="24" viewbox="0 0 16 16" width="24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"></path>
+                                    </svg>
+                                </div>Ко може учествовати у симулацији?</button></h2>
+                            <div aria-labelledby="Questions-headingThree" class="accordion-collapse collapse" data-bs-parent="#Questions-accordion" id="Questions-collapseThree">
+                                <div class="accordion-body">
+                                    У симулацији могу учествовати сви пунолетни грађани Републике Србије.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="Questions-headingFour"><button aria-controls="Questions-collapseFour" aria-expanded="false" class="accordion-button collapsed bg-light text-dark" data-bs-target="#Questions-collapseFour" data-bs-toggle="collapse" type="button">
+                                <div class="text-dark me-3">
+                                    <svg class="bi bi-question-circle-fill" fill="currentColor" height="24" viewbox="0 0 16 16" width="24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"></path>
+                                    </svg>
+                                </div>Како могу подржати овај пројекат?</button></h2>
+                            <div aria-labelledby="Questions-headingFour" class="accordion-collapse collapse" data-bs-parent="#Questions-accordion" id="Questions-collapseFour">
+                                <div class="accordion-body">
+                                    С обзиром на то да пројекат није комерцијалне природе већ је продукт добровољног рада, пројекат ВинКоин можете подржати на више начина:
+                                    <ul>
+                                        <li>Донацијама</li>
+                                        <li>Учествовањем у симулатору</li>
+                                        <li>Дељењем информација о пројекту на друштвеним мрежама</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+   <!-- FAQs End -->
+
+   <!--  start Tim sekcija -->
+
+   <!--<section class="py-5 mt-5" id="tim">
+    <div class="container mt-5">
+        <div class="row justify-content-center text-center mb-3">
+            <div class="col-lg-8 col-xl-7">
+                <h2 class="display-5 fw-bold">Тим секција - бланко ѕа сада!!</h2>
+                <p class="lead text-dark">Ако нисте разумели шта је ВинКоин, прочитајте одабрана питања и одговоре који ће укратко дати прецизну слику о пројекту.</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <span class="text-dark">Питања о ВинКоину</span>
+                <h2 class="pb-4 fw-bold">Имате питања?</h2>
+                <p class="text-dark">Ако имате било каква питања о томе како све функционише, слободно нас контактирајте.</p><a class="btn btn-success btn-lg mt-3" href="#contact">Контактирајте нас</a>
+            </div>
+            <div class="col-md-7">
+                <div class="accordion" id="Questions-accordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="Questions-headingOne"><button aria-controls="Questions-collapseOne" aria-expanded="false" class="accordion-button collapsed bg-light text-dark" data-bs-target="#Questions-collapseOne" data-bs-toggle="collapse" type="button">
+                            <div class="text-dark me-3">
+                                <svg class="bi bi-question-circle-fill" fill="currentColor" height="24" viewbox="0 0 16 16" width="24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"></path>
+                                </svg>
+                            </div>Да ли се ВинКоин може купити и да ли има вредност?</button></h2>
+                        <div aria-labelledby="Questions-headingOne" class="accordion-collapse collapse" data-bs-parent="#Questions-accordion" id="Questions-collapseOne">
+                            <div class="accordion-body">
+                                <p class="text-dark">
+                                    <strong>
+                                        ВинКоин не можете купити и тренутно нема комерцијалну вредност, јер је пројекат у фази развоја као симулатор.
+                                    </strong>
+                                </p>
+                                У будућности, ВинКоин може добити вредност и бити размењив за друге валуте, али за сада његова највећа вредност лежи у самом концепту. Овај концепт би у будућности могао бити од велике користи за друштво и привреду, стварајући нове могућности за економски развој и технолошки напредак.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="Questions-headingTwo"><button aria-controls="Questions-collapseTwo" aria-expanded="false" class="accordion-button collapsed bg-light text-dark" data-bs-target="#Questions-collapseTwo" data-bs-toggle="collapse" type="button">
+                            <div class="text-dark me-3">
+                                <svg class="bi bi-question-circle-fill" fill="currentColor" height="24" viewbox="0 0 16 16" width="24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"></path>
+                                </svg>
+                            </div>Како ће изгледати ВинКоин симулатор?</button></h2>
+                        <div aria-labelledby="Questions-headingTwo" class="accordion-collapse collapse" data-bs-parent="#Questions-accordion" id="Questions-collapseTwo">
+                            <div class="accordion-body">
+                                <p class="text-dark">
+                                    <strong>
+                                        ВинКоин симулатор ће се састојати од више међусобно повезаних система који су неопходни за процес блокчејна и осталих система везаних за технички део симулације, али и од едукативног дела који би требало да пружи јасну слику о пројекту свим грађанима, учесницима симулације.
+                                    </strong>
+                                </p>
+                                Симулација ће се одвијати на различитим нивоима и моделима, од онлајн продавнице до виртуелне мењачнице. Симулатор је осмишљен тако да обухвати системе у којима би било који званични ковани новац могао бити у употреби. Циљ је да се прикаже целокупан процес, од куповине и трансакција до размене, пружајући свеобухватан увид у блокчејн екосистем.
+                                Ова комбинација техничке и едукативне компоненте омогућиће учесницима да боље разумеју како функционишу блокчејн процеси, као и да схвате значај и потенцијал ВинКоин пројекта у свакодневном животу и привреди.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="Questions-headingThree"><button aria-controls="Questions-collapseThree" aria-expanded="false" class="accordion-button collapsed bg-light text-dark" data-bs-target="#Questions-collapseThree" data-bs-toggle="collapse" type="button">
+                            <div class="text-dark me-3">
+                                <svg class="bi bi-question-circle-fill" fill="currentColor" height="24" viewbox="0 0 16 16" width="24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"></path>
+                                </svg>
+                            </div>Ко може учествовати у симулацији?</button></h2>
+                        <div aria-labelledby="Questions-headingThree" class="accordion-collapse collapse" data-bs-parent="#Questions-accordion" id="Questions-collapseThree">
+                            <div class="accordion-body">
+                                У симулацији могу учествовати сви пунолетни грађани Републике Србије.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="Questions-headingFour"><button aria-controls="Questions-collapseFour" aria-expanded="false" class="accordion-button collapsed bg-light text-dark" data-bs-target="#Questions-collapseFour" data-bs-toggle="collapse" type="button">
+                            <div class="text-dark me-3">
+                                <svg class="bi bi-question-circle-fill" fill="currentColor" height="24" viewbox="0 0 16 16" width="24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"></path>
+                                </svg>
+                            </div>Како могу подржати овај пројекат?</button></h2>
+                        <div aria-labelledby="Questions-headingFour" class="accordion-collapse collapse" data-bs-parent="#Questions-accordion" id="Questions-collapseFour">
+                            <div class="accordion-body">
+                                С обзиром на то да пројекат није комерцијалне природе већ је продукт добровољног рада, пројекат ВинКоин можете подржати на више начина:
+                                <ul>
+                                    <li>Донацијама</li>
+                                    <li>Учествовањем у симулатору</li>
+                                    <li>Дељењем информација о пројекту на друштвеним мрежама</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>-->
+
+   <!-- end Tim sekcija -->
+
+   <!-- start Donacije sekcija -->
+
+   <!--<section class="py-5 mt-5" id="donacije">
+    <div class="container mt-5">
+        <div class="row justify-content-center text-center mb-3">
+            <div class="col-lg-8 col-xl-7">
+                <h2 class="display-5 fw-bold">Донације секција - бланко ѕа сада!!</h2>
+                <p class="lead text-dark">Ако нисте разумели шта је ВинКоин, прочитајте одабрана питања и одговоре који ће укратко дати прецизну слику о пројекту.</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <span class="text-dark">Питања о ВинКоину</span>
+                <h2 class="pb-4 fw-bold">Имате питања?</h2>
+                <p class="text-dark">Ако имате било каква питања о томе како све функционише, слободно нас контактирајте.</p><a class="btn btn-success btn-lg mt-3" href="#contact">Контактирајте нас</a>
+            </div>
+            <div class="col-md-7">
+                <div class="accordion" id="Questions-accordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="Questions-headingOne"><button aria-controls="Questions-collapseOne" aria-expanded="false" class="accordion-button collapsed bg-light text-dark" data-bs-target="#Questions-collapseOne" data-bs-toggle="collapse" type="button">
+                            <div class="text-dark me-3">
+                                <svg class="bi bi-question-circle-fill" fill="currentColor" height="24" viewbox="0 0 16 16" width="24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"></path>
+                                </svg>
+                            </div>Да ли се ВинКоин може купити и да ли има вредност?</button></h2>
+                        <div aria-labelledby="Questions-headingOne" class="accordion-collapse collapse" data-bs-parent="#Questions-accordion" id="Questions-collapseOne">
+                            <div class="accordion-body">
+                                <p class="text-dark">
+                                    <strong>
+                                        ВинКоин не можете купити и тренутно нема комерцијалну вредност, јер је пројекат у фази развоја као симулатор.
+                                    </strong>
+                                </p>
+                                У будућности, ВинКоин може добити вредност и бити размењив за друге валуте, али за сада његова највећа вредност лежи у самом концепту. Овај концепт би у будућности могао бити од велике користи за друштво и привреду, стварајући нове могућности за економски развој и технолошки напредак.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="Questions-headingTwo"><button aria-controls="Questions-collapseTwo" aria-expanded="false" class="accordion-button collapsed bg-light text-dark" data-bs-target="#Questions-collapseTwo" data-bs-toggle="collapse" type="button">
+                            <div class="text-dark me-3">
+                                <svg class="bi bi-question-circle-fill" fill="currentColor" height="24" viewbox="0 0 16 16" width="24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"></path>
+                                </svg>
+                            </div>Како ће изгледати ВинКоин симулатор?</button></h2>
+                        <div aria-labelledby="Questions-headingTwo" class="accordion-collapse collapse" data-bs-parent="#Questions-accordion" id="Questions-collapseTwo">
+                            <div class="accordion-body">
+                                <p class="text-dark">
+                                    <strong>
+                                        ВинКоин симулатор ће се састојати од више међусобно повезаних система који су неопходни за процес блокчејна и осталих система везаних за технички део симулације, али и од едукативног дела који би требало да пружи јасну слику о пројекту свим грађанима, учесницима симулације.
+                                    </strong>
+                                </p>
+                                Симулација ће се одвијати на различитим нивоима и моделима, од онлајн продавнице до виртуелне мењачнице. Симулатор је осмишљен тако да обухвати системе у којима би било који званични ковани новац могао бити у употреби. Циљ је да се прикаже целокупан процес, од куповине и трансакција до размене, пружајући свеобухватан увид у блокчејн екосистем.
+                                Ова комбинација техничке и едукативне компоненте омогућиће учесницима да боље разумеју како функционишу блокчејн процеси, као и да схвате значај и потенцијал ВинКоин пројекта у свакодневном животу и привреди.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="Questions-headingThree"><button aria-controls="Questions-collapseThree" aria-expanded="false" class="accordion-button collapsed bg-light text-dark" data-bs-target="#Questions-collapseThree" data-bs-toggle="collapse" type="button">
+                            <div class="text-dark me-3">
+                                <svg class="bi bi-question-circle-fill" fill="currentColor" height="24" viewbox="0 0 16 16" width="24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"></path>
+                                </svg>
+                            </div>Ко може учествовати у симулацији?</button></h2>
+                        <div aria-labelledby="Questions-headingThree" class="accordion-collapse collapse" data-bs-parent="#Questions-accordion" id="Questions-collapseThree">
+                            <div class="accordion-body">
+                                У симулацији могу учествовати сви пунолетни грађани Републике Србије.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="Questions-headingFour"><button aria-controls="Questions-collapseFour" aria-expanded="false" class="accordion-button collapsed bg-light text-dark" data-bs-target="#Questions-collapseFour" data-bs-toggle="collapse" type="button">
+                            <div class="text-dark me-3">
+                                <svg class="bi bi-question-circle-fill" fill="currentColor" height="24" viewbox="0 0 16 16" width="24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"></path>
+                                </svg>
+                            </div>Како могу подржати овај пројекат?</button></h2>
+                        <div aria-labelledby="Questions-headingFour" class="accordion-collapse collapse" data-bs-parent="#Questions-accordion" id="Questions-collapseFour">
+                            <div class="accordion-body">
+                                С обзиром на то да пројекат није комерцијалне природе већ је продукт добровољног рада, пројекат ВинКоин можете подржати на више начина:
+                                <ul>
+                                    <li>Донацијама</li>
+                                    <li>Учествовањем у симулатору</li>
+                                    <li>Дељењем информација о пројекту на друштвеним мрежама</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>-->
+
+   <!-- end Donacije sekcija -->
+
+    <!-- Footer Start -->
+
+    <div class="container-fluid bg-light footer mt-5 pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" id="pitanja">
+        <div class="container py-2 mt-2">
+            <div class="row g-1">
+                <div class="col-md-12">
+                    <h1 class="mb-4 text-center"><img class="img-fluid me-2" src="img/VK1.png" alt="" style="width: 45px; color: #091827;">ВинКоин</h1>
+                    <!--<span class="text-dark">VinKoin je inovativni digitalni novac koji omogućava brze, sigurne i decentralizovane transakcije širom sveta. Pridružite se našem ekosistemu i iskoristite sve prednosti digitalnog plaćanja.</span>-->
+                </div>
+                <!--<div class="col-md-6 text-dark">
+                    <h5 class="mb-4">Novosti</h5>
+                    <p class="text-dark">Prijavite se na naš newsletter i budite u toku sa svim najnovijim informacijama o VinKoinu i njegovim uslugama.</p>
+                    <div class="position-relative">
+                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Vaša e-pošta">
+                        <button type="button" class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">Prijavi se</button>
+                    </div>
+                </div>-->
+                <!--<div class="col-lg-3 col-md-6 text-dark">
+                    <h5 class="mb-4">Kontaktirajte nas</h5>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>PITATI ZA ADRESU</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>PITATI ZA BROJ</p>
+                    <p><i class="fa fa-envelope me-3"></i>PITATI ZA MEJL</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-4">Naše usluge</h5>
+                    <a class="btn btn-link text-dark" href="#service">Novčanik</a>
+                    <a class="btn btn-link text-dark" href="#features">Transakcije</a>
+                    <a class="btn btn-link text-dark" href="#service">Investicije</a>
+                    <a class="btn btn-link text-dark" href="#token">Prodaja VinKoina</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-4">Brze veze</h5>
+                    <a class="btn btn-link text-dark" href="#about">O Vinkoinu</a>
+                    <a class="btn btn-link text-dark" href="#contact">Kontakt</a>
+                    <a class="btn btn-link text-dark" href="#service">Naše usluge</a>
+                    <a class="btn btn-link text-dark" href="#features">Uslovi korišćenja</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-4">Pratite nas</h5>
+                    <div class="d-flex">
+                        <a class="btn btn-danger rounded-circle me-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-danger rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-danger rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-danger rounded-circle me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-md-center mb-3 mb-md-0 fs-3 text-dark">
+                        Лета господњег 7533.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+   <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#header" class="btn btn-lg btn-lg-square rounded-circle back-to-top" style="background-color: #091827;" ><i
+            class="bi bi-arrow-up text-white"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
